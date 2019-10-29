@@ -1,0 +1,13 @@
+{
+    "name": "cmbibby/wc-tab-generator",
+    "type": "wordpress-dropin",
+    "require": {
+        "composer/installers": "^1.7"
+    },
+    "authors": [
+        {
+            "name": "Chris Bibby",
+            "email": "cmbibby@gmail.com"
+        }
+    ]
+}
