@@ -22,7 +22,6 @@ class WC_Tab_Generator_Tab
 			'woocommerce_product_tabs',
 			function ($tabs) {
 				$tabs[$this->tab_title] = array(
-					'key' => str_replace(' ', '', $this->tab_title),
 					'title'    => $this->tab_title,
 					'priority' => $this->tab_priority,
 					'callback' => array($this, 'tab_callback'),
